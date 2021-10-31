@@ -7,11 +7,11 @@ pygame.display.set_mode((w, h))
 screen = pygame.display.get_surface()
 
 # 载入背景图并缩放到宽高
-bgpic = pygame.image.load('./resource/bgimage.jpg')
+bgpic = pygame.image.load('../resource/bgimage.jpg')
 bgpic = pygame.transform.scale(bgpic, (w, h))
 
 # 载入超级玛丽图
-mario_image = pygame.image.load('./resource/mario.jpg')
+mario_image = pygame.image.load('../resource/mario.jpg')
 mario_image = pygame.transform.scale(mario_image, (50, 50))
 # 创建精灵
 mario = pygame.sprite.Sprite()
